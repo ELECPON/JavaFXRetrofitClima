@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="368.0" prefWidth="269.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Modelos.botonesPantalla">
+   <children>
+      <ImageView fitHeight="376.0" fitWidth="282.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Foto/fondo.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="ViBoton" layoutX="185.0" layoutY="258.0" mnemonicParsing="false" onAction="#clickViento" prefHeight="40.0" prefWidth="84.0" text="Viento" />
+      <Button fx:id="CooBoton" layoutX="98.0" layoutY="218.0" mnemonicParsing="false" onAction="#clickCoordenadas" prefHeight="40.0" prefWidth="87.0" text="Coordenadas" />
+      <Button fx:id="ProBoton" layoutX="99.0" layoutY="298.0" mnemonicParsing="false" onAction="#clickPronostico" prefHeight="40.0" prefWidth="84.0" text="Pronostico" />
+      <Button fx:id="TempBoton" layoutX="14.0" layoutY="258.0" mnemonicParsing="false" onAction="#clickTemperatura" prefHeight="40.0" prefWidth="84.0" text="Temperatura" />
+      <TextArea fx:id="pantalla" layoutX="41.0" layoutY="14.0" prefHeight="150.0" prefWidth="200.0" />
+      <TextField fx:id="mens" layoutX="42.0" layoutY="176.0" prefHeight="25.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>
